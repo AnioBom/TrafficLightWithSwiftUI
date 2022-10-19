@@ -10,7 +10,6 @@ import SwiftUI
 struct ButtonTapped: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-        Text("Start")
             .font(.title)
             .frame(height: 50)
             .frame(maxWidth: .infinity)
@@ -31,19 +30,22 @@ struct ButtonTapped: ButtonStyle {
 
 struct ContentView: View {
     
+    @State var lightIsOff = false
 
     var body: some View {
         VStack {
-            RedCircle(color: .red)
-            YellowCircle(color: .yellow)
-            GreenCircle(color: .green)
+            CircleColor(color: .red).opacity(0.3)
+            CircleColor(color: .yellow).opacity(0.3)
+            CircleColor(color: .green).opacity(0.3)
             Spacer()
             Button(action: {
-                print("")
+                if lightIsOff {
+                    
+                }
+            }, label: {
+                
             })
-            .buttonStyle(ButtonTapped())
-            
-        }
+                    }
         .padding(20)
     }
 }

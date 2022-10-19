@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct RedCircle: View {
+struct CircleColor: View {
     let color: Color
 
     var body: some View {
         VStack {
             Circle()
-                .foregroundColor(.red)
+                .foregroundColor(color)
                 .frame(width: 100, height: 100)
                 .overlay(Circle().stroke(Color.white, lineWidth: 4))
                 .shadow(radius: 10)
@@ -25,6 +25,6 @@ struct RedCircle: View {
 
 struct RedCircle_Previews: PreviewProvider {
     static var previews: some View {
-        RedCircle(color: .red)
+        CircleColor(color: .red)
     }
 }

@@ -11,9 +11,7 @@
 		0400F7AE28FFC38100F5CA49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400F7AD28FFC38100F5CA49 /* ContentView.swift */; };
 		0400F7B028FFC38300F5CA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400F7AF28FFC38300F5CA49 /* Assets.xcassets */; };
 		0400F7B328FFC38300F5CA49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400F7B228FFC38300F5CA49 /* Preview Assets.xcassets */; };
-		0400F7BA28FFC53200F5CA49 /* RedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400F7B928FFC53200F5CA49 /* RedCircle.swift */; };
-		0400F7BC28FFC7B600F5CA49 /* YellowCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400F7BB28FFC7B600F5CA49 /* YellowCircle.swift */; };
-		0400F7BE28FFC8C100F5CA49 /* GreenCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400F7BD28FFC8C100F5CA49 /* GreenCircle.swift */; };
+		0400F7BA28FFC53200F5CA49 /* CircleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400F7B928FFC53200F5CA49 /* CircleColor.swift */; };
 		0400F7C228FFD5A900F5CA49 /* ButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400F7C128FFD5A900F5CA49 /* ButtonState.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +21,7 @@
 		0400F7AD28FFC38100F5CA49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0400F7AF28FFC38300F5CA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0400F7B228FFC38300F5CA49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0400F7B928FFC53200F5CA49 /* RedCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCircle.swift; sourceTree = "<group>"; };
-		0400F7BB28FFC7B600F5CA49 /* YellowCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowCircle.swift; sourceTree = "<group>"; };
-		0400F7BD28FFC8C100F5CA49 /* GreenCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCircle.swift; sourceTree = "<group>"; };
+		0400F7B928FFC53200F5CA49 /* CircleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleColor.swift; sourceTree = "<group>"; };
 		0400F7C128FFD5A900F5CA49 /* ButtonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,9 +57,7 @@
 			children = (
 				0400F7AB28FFC38100F5CA49 /* TrafficLight2App.swift */,
 				0400F7AD28FFC38100F5CA49 /* ContentView.swift */,
-				0400F7B928FFC53200F5CA49 /* RedCircle.swift */,
-				0400F7BB28FFC7B600F5CA49 /* YellowCircle.swift */,
-				0400F7BD28FFC8C100F5CA49 /* GreenCircle.swift */,
+				0400F7B928FFC53200F5CA49 /* CircleColor.swift */,
 				0400F7C128FFD5A900F5CA49 /* ButtonState.swift */,
 				0400F7AF28FFC38300F5CA49 /* Assets.xcassets */,
 				0400F7B128FFC38300F5CA49 /* Preview Content */,
@@ -152,9 +146,7 @@
 				0400F7AE28FFC38100F5CA49 /* ContentView.swift in Sources */,
 				0400F7C228FFD5A900F5CA49 /* ButtonState.swift in Sources */,
 				0400F7AC28FFC38100F5CA49 /* TrafficLight2App.swift in Sources */,
-				0400F7BE28FFC8C100F5CA49 /* GreenCircle.swift in Sources */,
-				0400F7BA28FFC53200F5CA49 /* RedCircle.swift in Sources */,
-				0400F7BC28FFC7B600F5CA49 /* YellowCircle.swift in Sources */,
+				0400F7BA28FFC53200F5CA49 /* CircleColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
