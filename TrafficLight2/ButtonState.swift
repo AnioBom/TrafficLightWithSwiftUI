@@ -7,22 +7,18 @@
 
 import SwiftUI
 
-
-enum nameButton: String {
-    case start = "Start"
-    case next = "Next"
-}
-
 struct ButtonState: View {
     
+    @State private var nameButton: String
+    
     var body: some View {
-        buttonView
+       buttonView
     }
     
     private var buttonView: some View {
         VStack {
             Button(action: {
-                
+                print("Button tapped")
             }, label: {
                 Text("Start")
                     .font(.title)
@@ -41,7 +37,7 @@ struct ButtonState: View {
     
     struct ButtonStyle_Previews: PreviewProvider {
         static var previews: some View {
-            ButtonState()
+            ButtonState(nameButton: "")
         }
     }
 }

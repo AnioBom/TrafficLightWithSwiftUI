@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RedCircle: View {
     let color: Color
+
     var body: some View {
         VStack {
             Circle()

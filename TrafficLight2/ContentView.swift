@@ -9,15 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var opacityAcitve = false
-    
+    @State var lightIsOff = false
+    @State var nameButton = "Start"
+
     var body: some View {
         VStack {
             RedCircle(color: .red)
             YellowCircle(color: .yellow)
             GreenCircle(color: .green)
             Spacer()
-            ButtonState()
+            Button {
+                if nameButton {
+                    Button(
+                }
         }
         .padding(20)
     }
